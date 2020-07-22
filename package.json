@@ -6,10 +6,24 @@
   "author": "SSJ",
   "license": "ISC",
   "dependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/node": "^7.10.5",
+    "@babel/polyfill": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
     "core-js": "^3.6.5",
     "express": "^4.17.1"
   },
+  "type": "module",
   "scripts": {
-    "start": "node index.js"
-  }
+    "start": "babel-node index.js"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/canwefly89/wetube.git"
+  },
+  "bugs": {
+    "url": "https://github.com/canwefly89/wetube/issues"
+  },
+  "homepage": "https://github.com/canwefly89/wetube#readme"
 }
