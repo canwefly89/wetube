@@ -10,20 +10,17 @@
     "@babel/node": "^7.10.5",
     "@babel/polyfill": "^7.10.4",
     "@babel/preset-env": "^7.10.4",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
     "core-js": "^3.6.5",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "helmet": "^3.23.3",
+    "morgan": "^1.10.0"
   },
-  "type": "module",
   "scripts": {
-    "start": "babel-node index.js"
+    "start": "nodemon --exec babel-node init.js"
   },
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/canwefly89/wetube.git"
-  },
-  "bugs": {
-    "url": "https://github.com/canwefly89/wetube/issues"
-  },
-  "homepage": "https://github.com/canwefly89/wetube#readme"
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
 }
